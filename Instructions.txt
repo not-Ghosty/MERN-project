@@ -1,0 +1,14 @@
+#############
+1.Change directory to backend
+### `cd backend`
+2.Install all dependencies to run the node application
+### `npm install`
+3.Run the below command to start a server 
+### `npm run dev`
+4.Change directory to frontend
+### `cd ..`
+### `cd frontend`
+5.Install all dependencies to run the react App
+### `npm install`
+6.Run the below command to start frontend react application
+### `npm start`

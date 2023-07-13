@@ -1,6 +1,6 @@
-cd D:\Vs_workspace\MERN\backend
+cd D:\MERN APP\frontend
 npm install
-npm run dev
-cd D:\Vs_workspace\MERN\frontend
+nohup npm run start &
+cd D:\MERN APP\backend
 npm install
-npm start
+node server.js 
