@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit form {
+  width: 25%;
+  border-radius: 10px;
+  height: 70vh;
+  padding: 20px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.edit label,
+input {
+  display: block;
+}
+
+.edit input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.edit button {
+  background: rgb(26, 172, 131);
+  border: 0;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit .err {
+  padding: 10px;
+  background: rgb(255, 239, 239);
+  border: 1px solid rgb(231, 25, 90);
+  color: rgb(231, 25, 90);
+  border-radius: 4px;
+  margin: 20px 0;
+  width: 60%;
+}
+.edit .error {
+  border: 1px solid rgb(231, 25, 90);
+}
